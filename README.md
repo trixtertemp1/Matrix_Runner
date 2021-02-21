@@ -1,4 +1,4 @@
-# mirrorbot-workflow
+# ghostmirror-workflow
 
 You can use [this repo](https://github.com/lzzy12/python-aria-mirror-bot) as a template
 
