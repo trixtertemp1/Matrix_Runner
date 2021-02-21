@@ -8,8 +8,9 @@ on:
    
 env:
   # Change these values if you have forked it for your own works
-  GitHubMail: "manofuranium@gmail.com"
-  GitHubName: "ElytrA8" 
+  GitHubMail: "hiteshkamble920@gmail.com"
+  GitHubName: "hitesh920" 
+  Branch: "bot-1"
 
 jobs:
   build:
@@ -31,7 +32,7 @@ jobs:
 
       - name: Clone The Secret Mirror Repository
         run: |
-          git clone https://${GitHubName}:${{ secrets.GH_TOKEN }}@github.com/${{ secrets.MIRROR_REPOSLUG }} source
+          git clone https://${GitHubName}:${{ secrets.GH_TOKEN }}@github.com/${{ secrets.MIRROR_REPOSLUG }} -b ${Branch} source
 
       - name: Compile The Mirroring Docker Container
         run: |
@@ -54,6 +55,6 @@ jobs:
           cd loop || exit 1
           echo $(( RANDOM - ( RANDOM % RANDOM ) )) > looper.txt
           git add looper.txt
-          git commit -m "Workflow : Loop at $(date -u +%D-%T%P)"
+          git commit -m "Workflow : Loop"
           git push -q https://${{ secrets.GH_TOKEN }}@github.com/${GITHUB_REPOSITORY} HEAD:main
 
