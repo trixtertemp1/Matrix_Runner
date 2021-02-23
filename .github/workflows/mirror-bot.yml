@@ -24,7 +24,6 @@ jobs:
           echo "https://${GitHubName}:${{ secrets.GH_TOKEN }}@github.com" > ~/.git-credentials
 
       - name: initialization
-         continue-on-error: true
          run: |
            sudo rm -rf /usr/share/dotnet /etc/mysql /etc/php /etc/apt/sources.list.d
            docker rmi `docker images -q`
