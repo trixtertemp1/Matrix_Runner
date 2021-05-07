@@ -1,6 +1,7 @@
 # ghostmirror-workflow
+Join [@ghost_mirror](https://t.me/ghost_mirror)
 
-You can use [this repo](https://github.com/lzzy12/python-aria-mirror-bot) as a template
+You can use [this repos](https://github.com/ghostmirrorlab/mirror-bot-repos) as a template
 
 First setup everything then push to your private Repository
 
