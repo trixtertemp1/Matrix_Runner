@@ -16,7 +16,7 @@ After that done, it should look like this
 ![image](https://user-images.githubusercontent.com/77688759/120898707-a2224800-c649-11eb-8b5c-4f184736e717.png)
 
 
-Then edit .github/workflows/*.yml
+Then edit .github/workflows/mirror-bot.yml
 
 Change `GitHubMail`, `GitHubName` and `Branch` environment variable as your own
 
