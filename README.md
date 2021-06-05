@@ -16,7 +16,8 @@ MIRROR_REPOSLUG :- Your Secret Repository, as in "<username>/<reponame>"
 
 Then edit .github/workflows/*.yml
 
-![](https://telegra.ph/file/d26f96a651978decf749f.png)
+![image](https://user-images.githubusercontent.com/77688759/120898733-c54cf780-c649-11eb-9b80-058d4500df29.png)
+
 
 Change `GitHubMail`, `GitHubName` and `Branch` environment variable as your own
 
