@@ -2,10 +2,10 @@
 Join [@ghost_mirror](https://t.me/ghost_mirror)
 
 You can use [this repos](https://github.com/ghostmirrorlab/mirror-bot-repos) as a template
-First setup everything then push to your private Repository
+First setup everything then push to your main private Repository
 
 ## Prerequisite
-Then Fork this Repo
+Then Fork this Repo ( Keep workflow repo public )
 Setup secrets in settings --> Secrets
 
 ```text
