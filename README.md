@@ -24,4 +24,4 @@ Change `GitHubMail`, `GitHubName` and `Branch` environment variable as your own
 
 And That's it.
 
-©ElytrA8
+[©ElytrA8](https://github.com/ElytrA8)
