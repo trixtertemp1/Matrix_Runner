@@ -1,4 +1,4 @@
-# ghostmirror-workflow
+# ghostmirror single job workflow
 Join [@ghost_mirror](https://t.me/ghost_mirror)
 
 You can use [this repos](https://github.com/ghostmirrorlab/mirror-bot-repos) as a template
