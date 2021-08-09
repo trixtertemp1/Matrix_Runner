@@ -1,6 +1,8 @@
 # Ghost Mirror Single Job Workflow
 Join [@ghost_mirror](https://t.me/ghost_mirror)
 
+## Dont use this bin Your main account, risk of account suspension
+
 You can use [this repos](https://github.com/ghostmirrorlab/mirror-bot-repos) as a template
 First setup everything then push to your main private Repository
 
