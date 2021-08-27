@@ -13,7 +13,7 @@ Setup secrets in settings --> Secrets
 
 `GH_TOKEN` :- Your github personal access token, from https://github.com/settings/tokens
 
-`MIRROR_REPOSLUG` :- Your Secret Repository, as in `<username>/<reponame>` (without quotes) for eg `ghost/mirror-bot`
+`MIRROR_REPOSLUG` :- Your Secret Repository, as in `<username>/<reponame>` for eg `ghost/mirror-bot`
 
   
 After that done, it should look like this
