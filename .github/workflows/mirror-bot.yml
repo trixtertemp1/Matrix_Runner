@@ -1,6 +1,6 @@
-name: MirrorBot Environment
+name: Deploy
 
-#on:
+on:
   push:
     branches: [ main ]
     paths-ignore: 'README.md'
